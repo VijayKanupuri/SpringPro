@@ -22,7 +22,7 @@ public class LoginInController {
 	
 	@RequestMapping({"/home"})
 	public String home() {
-		
+		String hh;
 //		UserBean ub = new UserBean();
 		User u1=ApplicationContextHandler.getBean("user",User.class);
 		u1.setUser("vijay");
